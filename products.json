@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "Auriculares Bluetooth",
+    "categoria": "TECNOLOGÍA",
+    "precio": 129900,
+    "img": "https://images.unsplash.com/photo-1518443895914-6b6a3d54f2a1?q=80&w=800&auto=format&fit=crop",
+    "url": "producto-auriculares.html"
+  },
+  {
+    "nombre": "Mouse Inalámbrico",
+    "categoria": "Tecnología / Accesorios",
+    "precio": 69900,
+    "img": "https://images.unsplash.com/photo-1587825140400-9d2c7cbe7f5b?q=80&w=800&auto=format&fit=crop",
+    "url": "producto-mouse.html"
+  },
+  {
+    "nombre": "Sombrilla Plegable",
+    "categoria": "SOMBRILLA",
+    "precio": 39900,
+    "img": "https://images.unsplash.com/photo-1508087623748-e87d6f3d15df?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "nombre": "Cámara Web 1080p",
+    "categoria": "TECNOLOGÍA",
+    "precio": 159900,
+    "img": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=800&auto=format&fit=crop",
+    "url": "producto-webcam.html"
+  },
+  {
+    "nombre": "Termo de Acero",
+    "categoria": "TERMO",
+    "precio": 54900,
+    "img": "https://images.unsplash.com/photo-1524594081293-190a2fe0baae?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "nombre": "Teclado Mecánico RGB",
+    "categoria": "TECNOLOGÍA",
+    "precio": 219900,
+    "img": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=800&auto=format&fit=crop",
+    "url": "producto-teclado.html"
+  },
+  {
+    "nombre": "Power Bank 20.000mAh",
+    "categoria": "TECNOLOGÍA",
+    "precio": 119900,
+    "img": "https://images.unsplash.com/photo-1609599006353-8c6c5f4bea7f?q=80&w=800&auto=format&fit=crop",
+    "url": "producto-powerbank.html"
+  },
+  {
+    "nombre": "Cable USB-C",
+    "categoria": "TECNOLOGÍA",
+    "precio": 19900,
+    "img": "https://images.unsplash.com/photo-1587573089734-09cb79ee0c54?q=80&w=800&auto=format&fit=crop",
+    "url": "producto-cable.html"
+  },
+  {
+    "nombre": "Gel Fijador",
+    "categoria": "BELLEZA",
+    "precio": 12900,
+    "img": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=800&auto=format&fit=crop"
+  }
+]
