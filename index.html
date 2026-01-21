@@ -3,29 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Catálogo Tecnología</title>
+  <title>Catálogo Tech</title>
 
-  <!-- CSS con ruta absoluta (GitHub Pages bajo /Accesories_one-/) -->
-  /Accesories_one-/styles.css
-
-  <!-- JS con ruta absoluta (se carga cuando el DOM está listo) -->
-  /Accesories_one-/app.js</script>
-</head>
-<body>
-  <header class="site-header">
-    <h1>Catálogo <span class="tag">Tech</span></h1>
-    <p class="sub">Año <span id="anio"></span></p>
+  <!-- usa rutas relativas -->
+  <link rel="stylesheet" href="styles>
+    <h1>Catálogo Tech</h1>
   </header>
 
-  <main class="container">
+  <main>
     <section>
       <h2>Destacados</h2>
-
-      <!-- Contenedor donde app.js pintará los productos -->
-      <div id="productos" class="grid" aria-live="polite"></div>
+      <div id="grid-productos" class="grid"></div>
     </section>
   </main>
 
-  <footer class="site-footer">Hecho con ❤️ por Cristian</footer>
+  <footer>
+    <p>Hecho con ❤️ por Cristian</p>
+  </footer>
+
+  <!-- JS al final + defer en caso de moverlo al <head> -->
+  <script src="t>
 </body>
 </html>
+
