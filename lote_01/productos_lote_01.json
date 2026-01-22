@@ -1,0 +1,86 @@
+[
+  {
+    "titulo": "Diadema Gamer tipo G35 – USB",
+    "descripcion": "Diadema gamer con micrófono y sonido envolvente virtual (según fabricante). Conexión USB, ideal para PC.",
+    "slug": "audifonos-gaming-g35-diadema-usb",
+    "imagen": "audifonos-gaming-g35-diadema-usb.jpg",
+    "categoria": "Audio"
+  },
+  {
+    "titulo": "Auriculares estilo AirPods 3 – Negro (genérico)",
+    "descripcion": "TWS estilo AirPods 3. Diseño liviano, conexión Bluetooth estable para uso diario.",
+    "slug": "airpods-3a-gen-negro-generico",
+    "imagen": "airpods-3a-gen-negro-generico.jpg",
+    "categoria": "Audio"
+  },
+  {
+    "titulo": "Airdots Pro – Control táctil (Blanco)",
+    "descripcion": "Auriculares TWS con control táctil e IPX4. Estuche compacto para carga rápida.",
+    "slug": "airdots-pro-tactil-blanco",
+    "imagen": "airdots-pro-tactil-blanco.jpg",
+    "categoria": "Audio"
+  },
+  {
+    "titulo": "AirPods Pro (1.ª generación)",
+    "descripcion": "In‑ear con cancelación activa de ruido y modo Transparencia. Estuche de carga inalámbrica.",
+    "slug": "apple-airpods-pro-1a-gen",
+    "imagen": "apple-airpods-pro-1a-gen.jpg",
+    "categoria": "Audio"
+  },
+  {
+    "titulo": "Cargador USB‑C 20W – Estilo Apple (Blanco)",
+    "descripcion": "Adaptador de corriente USB‑C de 20 W, diseño compacto. Carga rápida compatible.",
+    "slug": "cargador-usb-c-20w-apple-blanco",
+    "imagen": "cargador-usb-c-20w-apple-blanco.jpg",
+    "categoria": "Cargadores"
+  },
+  {
+    "titulo": "Harvic BT‑539 – TWS (Negro)",
+    "descripcion": "Bluetooth estéreo, 4–8 h aprox., estuche de carga ~800 mAh, micrófono integrado.",
+    "slug": "harvic-bt-539-tws-negro",
+    "imagen": "harvic-bt-539-tws-negro.jpg",
+    "categoria": "Audio"
+  },
+  {
+    "titulo": "Harvic BT‑545 – TWS (Negro)",
+    "descripcion": "TWS con buen enfoque en batería; estuche de carga y micrófono integrado.",
+    "slug": "harvic-bt-545-tws-negro",
+    "imagen": "harvic-bt-545-tws-negro.jpg",
+    "categoria": "Audio"
+  },
+  {
+    "titulo": "Karmabeo F40 – TWS (Transparente)",
+    "descripcion": "TWS con BT 5.x, diseño transparente y control táctil.",
+    "slug": "karmabeo-f40-tws-transparente",
+    "imagen": "karmabeo-f40-tws-transparente.jpg",
+    "categoria": "Audio"
+  },
+  {
+    "titulo": "Harvic BT‑540 – TWS (Blanco)",
+    "descripcion": "Bluetooth estéreo, Type‑C, 4–8 h aprox., estuche recargable, micrófono.",
+    "slug": "harvic-bt-540-tws-blanco",
+    "imagen": "harvic-bt-540-tws-blanco.jpg",
+    "categoria": "Audio"
+  },
+  {
+    "titulo": "JBL Wave 300TWS – Negro",
+    "descripcion": "TWS oficiales JBL Deep Bass (driver 12 mm), hasta 26 h, diseño open‑stick.",
+    "slug": "jbl-wave-300tws-negro",
+    "imagen": "jbl-wave-300tws-negro.jpg",
+    "categoria": "Audio"
+  },
+  {
+    "titulo": "Redmi AirDots TWS – Tipo botón (Negro)",
+    "descripcion": "TWS tipo botón, Bluetooth 5.x, estuche ultracompacto.",
+    "slug": "redmi-airdots-tws-boton-negro",
+    "imagen": "redmi-airdots-tws-boton-negro.jpg",
+    "categoria": "Audio"
+  },
+  {
+    "titulo": "AirPods (3.ª generación) – Blanco",
+    "descripcion": "Ajuste cómodo, Spatial Audio, estuche de carga; batería para el día a día.",
+    "slug": "apple-airpods-3a-gen-blanco",
+    "imagen": "apple-airpods-3a-gen-blanco.jpg",
+    "categoria": "Audio"
+  }
+]
