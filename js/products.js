@@ -1,3 +1,4 @@
+
 // ==========================
 // CONFIG (GitHub Pages)
 // ==========================
@@ -12,9 +13,9 @@ const IMG_BASES = {
 };
 
 // ==========================
-// CARGA MULTILOTE
+// CARGA MULTILOTE (V2)
 // ==========================
-async function cargarProductos() {
+async function cargarProductosV2() {
   const fetchJson = (url) =>
     fetch(`${BASE}${url}`).then(r => {
       if (!r.ok) throw new Error(`No se pudo cargar: ${url} (${r.status})`);
@@ -33,9 +34,9 @@ async function cargarProductos() {
 }
 
 // ==========================
-// RENDER
+// RENDER (V2 con <img> garantizado)
 // ==========================
-function renderProductos(items) {
+function renderProductosV2(items) {
   const grid = document.getElementById('gridProductos');
   if (!grid) return;
 
@@ -55,14 +56,10 @@ function renderProductos(items) {
   `).join('');
 }
 
-
-
-
-
 // ==========================
-// BÚSQUEDA / FILTROS (opcional)
+// FILTROS / BÚSQUEDA (V2)
 // ==========================
-function wireUpFilters(data){
+function wireUpFiltersV2(data){
   const chips = document.querySelectorAll('.f-chip');
   const input = document.getElementById('buscador');
 
@@ -78,7 +75,7 @@ function wireUpFilters(data){
       const byText = !qlc || texto.includes(qlc);
       return byCat && byText;
     });
-    renderProductos(view);
+    renderProductosV2(view);
   };
 
   chips.forEach(ch=>{
@@ -101,11 +98,16 @@ function wireUpFilters(data){
 }
 
 // ==========================
-// BOOT (espera al DOM)
+// BOOT (DOM listo) — usa V2
 // ==========================
-document.addEventListener('DOMContentLoaded', () => {
-  console.log('[Catalog] multilote ON', new Date().toISOString());
-  cargarProductos()
-    .then(items => { renderProductos(items); wireUpFilters(items); })
-    .catch(err => console.error('[Catalog] Error:', err));
+document.addEventListener('DOMContentLoaded', async () => {
+  console.log('[Catalog] multilote V2 ON', new Date().toISOString());
+  try {
+    const items = await cargarProductosV2();
+    console.log('[Catalog] items cargados:', items.length);
+    renderProductosV2(items);
+    wireUpFiltersV2(items);
+  } catch (err) {
+    console.error('[Catalog] Error V2:', err);
+  }
 });
